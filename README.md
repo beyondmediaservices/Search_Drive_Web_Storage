@@ -7,3 +7,10 @@ Let’s say a user asks: “What’s the latest research on quantum computing?�
 2) Search: The retriever searches a database or corpus of research papers, articles, or other documents for content related to “quantum computing research.”
 3) Similarity: It finds the most relevant research papers or abstracts by measuring the semantic similarity to the query.
 4) Response Generation: The generative model combines information from these documents to generate a concise, informative response.
+
+
+for running GCSDirectoryLoader
+1) pip install langchain google-cloud-storage pytesseract pdf2image
+
+       If you have scanned PDFs or images, pytesseract (Tesseract OCR) is required. Make sure Tesseract is installed, and its path is set.
+3) brew install tesseract
