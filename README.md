@@ -13,4 +13,10 @@ for running GCSDirectoryLoader
 1) pip install langchain google-cloud-storage pytesseract pdf2image
 
        If you have scanned PDFs or images, pytesseract (Tesseract OCR) is required. Make sure Tesseract is installed, and its path is set.
+       We also need to download NLTK module "punkt"
+       Run the following in Python:
+
+       import nltk
+       nltk.download('punkt')
+
 3) brew install tesseract
