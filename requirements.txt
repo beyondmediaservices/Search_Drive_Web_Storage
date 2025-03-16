@@ -1,0 +1,17 @@
+langchain
+langchain-core
+langchain-google-vertexai 
+google-cloud-aiplatform[langchain,reasoningengine]
+langchain-google-community
+google-cloud-discoveryengine
+google-api-python-client
+streamlit
+google-cloud-bigquery
+langchain-google-genai
+langchain-googledrive   
+google-auth-httplib2 
+google-auth-oauthlib
+PyPDF2
+faiss-cpu
+unstructured
+pydantic==2.9.0
