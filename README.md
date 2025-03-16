@@ -20,3 +20,6 @@ for running GCSDirectoryLoader
        nltk.download('punkt')
 
 3) brew install tesseract
+
+To run the script:-
+       python test.py -s GCS/GDRIVE
